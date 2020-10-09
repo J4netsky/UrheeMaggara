@@ -15,9 +15,12 @@ generated/
 build/
 /captures/
 .cxx/
-/CrashCourse.dir/
+/UrheeMaggara.dir/
 /Win32/
+/x64/
+/x86/
 /Debug/
+*.sln
 
 #added
 .vs/

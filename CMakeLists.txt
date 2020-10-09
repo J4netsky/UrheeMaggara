@@ -13,13 +13,13 @@ if (COMMAND cmake_policy)
     cmake_policy (SET CMP0063 OLD)
 endif ()
 # Set project name
-project (MyProjectName)
+project (UrheeMaggara)
 # Set CMake modules search path
 set (CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/CMake/Modules)
 # Include UrhoCommon.cmake module after setting project name
 include (UrhoCommon)
 # Define target name
-set (TARGET_NAME MyExecutableName)
+set (TARGET_NAME UrheeMaggara)
 # Define source files
 define_source_files ()
 file (GLOB CPP_FILES *.cpp)
